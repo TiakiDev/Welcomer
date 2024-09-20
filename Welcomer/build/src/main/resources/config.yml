@@ -1,0 +1,55 @@
+#Welcomer 1.0.0 by Tiaki
+#If you need any help with the plugin join my discord server and make a ticket dsc.gg/arkadiasmp
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        Welcomer                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+
+
+
+#You can use color codes the list of them is here: https://minecraft.fandom.com/wiki/Formatting_codes
+JoinMessage:
+    enabled: true
+    messages:
+        - ""
+        - "&a&l Welcome to the server!"
+        - ""
+        - "&e www.examplewebsite.com"
+        - "&b dsc.gg/yourserver"
+        - "&5 www.tiktok.com/yourname"
+        - ""
+
+
+#Here you can also use color codes.
+JoinTitle:
+    enabled: true
+    title: "&6 hello!"
+    subtitle: "&a welcome to the server"
+ 
+ 
+#you can find list of sounds here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+PlaySound:
+    enabled: true
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 1
+    pitch: 1
+    
+    
+#you can find list of particles here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+SpawnParticle:
+    enabled: true
+    particle: TOTEM_OF_UNDYING
+    count: 350
+
+
+#Guess what? here you can also use color codes
+JoinActionBarMessage:
+    enabled: true
+    message: "&e welcome to the server"
+    
+    
+        
+        

@@ -1,0 +1,33 @@
+{
+  "debug-mode": false,
+  "package": "Welcomer",
+  "maven-repositories": [{
+    "id": "placeholderapi",
+    "url": "https://repo.extendedclip.com/content/repositories/placeholderapi/"
+  }],
+  "jar-output": "C:\\Users\\Kacper\\VisualBukkit6\\projects\\Welcomer\\build\\target",
+  "selected-tab": 4,
+  "maven-dependencies": [{
+    "scope": "provided",
+    "coords": "me.clip:placeholderapi:jar:2.11.6"
+  }],
+  "open-plugin-components": [
+    "Logger",
+    "Variables",
+    "TabComplete",
+    "PlayerJoinEvent",
+    "Command"
+  ],
+  "plugin-settings": {
+    "website": "",
+    "prefix": "Welcomer",
+    "permissions": "",
+    "name": "Welcomer",
+    "description": "",
+    "version": "1.0.0",
+    "soft-depend": "[PlaceholderAPI]",
+    "authors": "Tiaki",
+    "dependencies": "",
+    "load-before": ""
+  }
+}

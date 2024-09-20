@@ -1,0 +1,11 @@
+name: "Welcomer"
+version: "1.0.0"
+main: "Welcomer.PluginMain"
+api-version: "1.20"
+authors: [Tiaki]
+softdepend: [[PlaceholderAPI]]
+prefix: "Welcomer"
+
+commands:
+  welcomer:
+    aliases: [welcome]
